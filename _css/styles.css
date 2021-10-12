@@ -20,15 +20,18 @@ body {
 }
 
 section {
-  
+  background : #E4E9B2;
 }
 
 /* Header & Footer 
 ------------------------------------*/
 header {
-	background : #E7E08B;
+	background : #B5CBB7;
 }
 
+footer{
+  background : #D2E4C4;
+}
 
 /* Work Experience
 ------------------------------------*/
@@ -37,3 +40,13 @@ header {
 
 /* Education
 ------------------------------------*/
+
+/* For Two Columns
+------------------------------------*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
