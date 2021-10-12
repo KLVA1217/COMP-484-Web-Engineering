@@ -45,6 +45,7 @@ footer{
 ------------------------------------*/
 .row {
   display: flex;
+  margin-bottom: 1em;
 }
 
 .column {
