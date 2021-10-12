@@ -7,8 +7,12 @@
 
 /* Global styles 
 ------------------------------------*/
+html{
+  background : #176058; 
+  margin : 0;
+}
+
 body {
-  background: #663399;
 }
 
 /* Header & Footer 
