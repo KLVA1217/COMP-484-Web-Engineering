@@ -75,6 +75,20 @@ h3{
 /* Education
 ------------------------------------*/
 
+/* For the narrow and wide Columns
+------------------------------------*/
+.column-narrow{
+  width: 30%; 
+  float: left;
+	padding-right: 3%; 
+  min-height 175px;
+}
+
+.column-wide {
+  width: 70%; 
+  float: left; 
+  min-height: 225px;
+}
 
 /* For Two Evenly Spaced Columns
 ------------------------------------*/
@@ -89,10 +103,10 @@ h3{
 /*Extras
 ------------------------------------*/
 .profile-img{
-  width: 243px;
   border-radius:50%;
   float: left;
   margin-right: 30px;
+  width: 243px;
 }
 
 *, *:before, *:after{
