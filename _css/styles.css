@@ -50,6 +50,12 @@ h3{
   font-family: 'Roboto', sans-serif;
 }
 
+.content-wrap{
+  width: max-width;
+  margin: 0 auto;
+  padding: 35px;
+}
+
 /* Work Experience
 ------------------------------------*/
 
