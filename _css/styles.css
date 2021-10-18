@@ -65,7 +65,7 @@ h3{
   max-width: 950px;
   margin: 0 auto;
   padding: 35px;
-  oveflow: hidden;
+  overflow: hidden;
 }
 
 /* Work Experience
@@ -103,10 +103,10 @@ h3{
 /*Extras
 ------------------------------------*/
 .profile-img{
-  border-radius:50%;
-  float: left;
+  border-radius:100%;
+  /*float: left;
   margin-right: 30px;
-  width: 243px;
+  width: 243px;*/
 }
 
 *, *:before, *:after{
