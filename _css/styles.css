@@ -10,6 +10,7 @@
 html{
   background : #818479; 
   margin : 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -75,7 +76,7 @@ h3{
 ------------------------------------*/
 
 
-/* For Two Columns
+/* For Two Evenly Spaced Columns
 ------------------------------------*/
 .row {
   display: flex;
@@ -91,4 +92,9 @@ h3{
   width: 243px;
   border-radius:50%;
   float: left;
+  margin-right: 30px;
+}
+
+*, *:before, *:after{
+  box-sizing:inherit;
 }
