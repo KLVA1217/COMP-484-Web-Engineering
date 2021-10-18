@@ -33,6 +33,23 @@ footer{
   background : #D2E4C4;
 }
 
+
+/* H#'s'
+------------------------------------*/
+h1{
+  font-family: 'Courier Prime', monospace;
+  font-size: 3em;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Work Experience
 ------------------------------------*/
 
