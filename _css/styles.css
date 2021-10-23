@@ -86,6 +86,10 @@ a {
   
 }
 .display a {
+  font-family: 'Courier Prime', monospace;
+  text-decoration: none;
+  color: #D2E4C4;
+  font-weight:2em;
   padding: 10px;
   display: inline-block;
 }
