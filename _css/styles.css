@@ -11,6 +11,7 @@ html{
   background : #818479; 
   margin : 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -76,32 +77,17 @@ nav {
   width: 80%;
 }
 a {
-  background: #D2E4C4;
-  font-family: 'Courier Prime', monospace;
+
 }
 
 /* Navigation using 'display' */
 .display {
   text-align: center;
   
-  /* To reduce the space between the elements set the font size to zero in the parent element. */
-  
-  /* font-size: 0; */
-  
 }
 .display a {
   padding: 10px;
   display: inline-block;
-  
-  /* This extra space affects how much total space the element takes up. Let's say I want to make four equal elements, by setting the links to a width of 25%. Even though 25 x 4 = 100%, the last item gets pushed down to the next line because there's not enough space for it. */  
-  
-  /* width: 25%; */
-  
-  
-  
-  /* Because font size is also inherited, you'll have to reset the font size in the child element itself. */
-  
-  /* font-size: 16px; */
 }
 
 /* For the narrow and wide Columns
