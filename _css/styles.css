@@ -68,12 +68,40 @@ h3{
   overflow: hidden;
 }
 
-/* Work Experience
+/*Navigation Bar at the Top
 ------------------------------------*/
+nav {
+  background: purple;
+  position: relative;
+  margin-bottom: 5px;
+}
+a {
+  background: lightblue;
+}
 
-
-/* Education
-------------------------------------*/
+/* Navigation using 'display' */
+.display {
+  text-align: center;
+  
+  /* To reduce the space between the elements set the font size to zero in the parent element. */
+  
+  /* font-size: 0; */
+  
+}
+.display a {
+  padding: 10px;
+  display: inline-block;
+  
+  /* This extra space affects how much total space the element takes up. Let's say I want to make four equal elements, by setting the links to a width of 25%. Even though 25 x 4 = 100%, the last item gets pushed down to the next line because there's not enough space for it. */  
+  
+  /* width: 25%; */
+  
+  
+  
+  /* Because font size is also inherited, you'll have to reset the font size in the child element itself. */
+  
+  /* font-size: 16px; */
+}
 
 /* For the narrow and wide Columns
 ------------------------------------*/
@@ -119,3 +147,4 @@ h3{
 *, *:before, *:after{
   box-sizing:inherit;
 }
+
