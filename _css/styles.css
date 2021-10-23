@@ -14,7 +14,6 @@ html{
 }
 
 body {
-  background : #E7E08B;
   width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -72,8 +71,9 @@ h3{
 ------------------------------------*/
 nav {
   background: purple;
-  position: relative;
-  margin-bottom: 5px;
+  position: fixed;
+  top: 0em;
+  width: 80%;
 }
 a {
   background: lightblue;
