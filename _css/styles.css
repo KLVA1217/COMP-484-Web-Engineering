@@ -70,13 +70,14 @@ h3{
 /*Navigation Bar at the Top
 ------------------------------------*/
 nav {
-  background: purple;
+  background : #818479; 
   position: fixed;
   top: 0em;
   width: 80%;
 }
 a {
-  background: lightblue;
+  background: #D2E4C4;
+  font-family: 'Courier Prime', monospace;
 }
 
 /* Navigation using 'display' */
