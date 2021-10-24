@@ -143,8 +143,8 @@ a {
 ------------------------------------*/
 
 .image-bg{
-  background: linear-gradient(rgba(228,233,178,0.75),
-                              rgba(228,233,178,0.75) ),
+  background: linear-gradient(rgba(228,233,178,0.65),
+                              rgba(228,233,178,0.65) ),
               url(https://cdn.glitch.me/435dec9b-e78e-476e-96d5-c3dc657fa842%2FCSUNS.svg.png?v=1635033630826);
   background-size: contain;
   background-repeat: no-repeat;
@@ -152,5 +152,5 @@ a {
 }
 
 .alpha-bg{
-  background: rgba(228,233,178,0.75)
+  background: rgba(228,233,178,0.65)
 }
