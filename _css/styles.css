@@ -144,8 +144,9 @@ a {
 
 .image-bg{
   background: url(https://cdn.glitch.me/435dec9b-e78e-476e-96d5-c3dc657fa842%2FCSUNS.svg.png?v=1635033630826);
+  background-size: cover;
 }
 
 .alpha-bg{
-  background: rgba(241,227,211,0.5)
+  background: rgba(241,227,211,0.60)
 }
