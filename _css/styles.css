@@ -143,10 +143,14 @@ a {
 ------------------------------------*/
 
 .image-bg{
-  background: url(https://cdn.glitch.me/435dec9b-e78e-476e-96d5-c3dc657fa842%2FCSUNS.svg.png?v=1635033630826);
-  background-size: cover;
+  background: linear-gradient(rgba(228,233,178,0.75),
+                              rgba(228,233,178,0.75) ),
+              url(https://cdn.glitch.me/435dec9b-e78e-476e-96d5-c3dc657fa842%2FCSUNS.svg.png?v=1635033630826);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .alpha-bg{
-  background: rgba(241,227,211,0.60)
+  background: rgba(228,233,178,0.75)
 }
